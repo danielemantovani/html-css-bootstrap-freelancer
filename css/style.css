@@ -1,4 +1,50 @@
+:root{
+    --bg-blu: #2C3E50; 
+    --bg-verde: #1ABC9C;
+}
+
 img{
     max-width: 100%;
 }
 
+.ms_header{
+    background-color: var(--bg-blu);
+    height: 100px;
+}
+
+.ms_hero{
+    background-color:var(--bg-verde);
+    height: 400px;
+}
+
+/* PORTFOLIO SECTION (CARD) */
+
+.ms_house{
+    background-color:#BA4B63;
+    height: 300px;
+}
+
+.ms_cake{
+    background-color:#1EA4B6;
+    height: 300px;
+}
+
+.ms_circus{
+    background-color:black;
+    height: 300px;
+}
+
+.ms_controller{
+    background-color:#1C83C1;
+    height: 300px;
+}
+
+.ms_safety{
+    background-color:#0E38B5;
+    height: 300px;
+}
+
+.ms_submarine{
+    background-color:#CCB2A3;
+    height: 300px;
+}
