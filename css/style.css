@@ -53,11 +53,41 @@ img{
 
 .ms_about-section{
     background-color: var(--bg-verde);
-    height: 1000px;
+    height: 400px;
 }
 
 .ms_container{
-    max-width: 800px;
-    min-width: 300px;
-    margin: 0 auto;
+    height: 400px;
+}
+
+@media screen and (min-width:768px) {
+    .ms_container{
+        max-width: 500px;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .ms_container{
+        max-width: 1000px;
+    }
+}
+
+/* CONTACT ME SECTION */
+
+.contact-section{
+    height: 400px;
+}
+
+/* INFO SECTION */
+
+.info-section{
+    background-color: #3A546D;
+    height: 400px;
+}
+
+/* FOOTER */
+
+footer{
+    background-color: var(--bg-blu);
+    height: 100px;
 }
