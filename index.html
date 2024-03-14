@@ -15,7 +15,7 @@
 <body>
     <!-- HEADER -->
     <header class="ms_header">
-        <nav class="navbar navbar-expand-lg">
+        <nav class="navbar navbar-expand-md navbar-expand-lg">
             <div class="container">
                 <a class="navbar-brand text-light" href="#">START BOOTSTRAP</a>
                 <button class="navbar-toggler" type="button text-info" data-bs-toggle="collapse"
@@ -23,8 +23,8 @@
                     aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse"                                          id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-lg-0">
                         <li class="nav-item">
                             <a class="nav-link active text-light" aria-current="page" href="#">PORTFOLIO</a>
                         </li>
@@ -43,11 +43,12 @@
     <!-- MAIN -->
     <main>
         <!-- HERO -->
-        <section class="ms_hero">
-            <div class="container">
-                <img class="img-fluid" src="img/avatar.svg" alt="">
-                <div>
-                    ciao
+        <section class="ms_hero py-5">
+            <div class="container text-center">
+                <img class="ms_img-hero img-fluid" src="img/avatar.svg" alt="">
+                <div class="text-light">
+                    <h1>START BOOTSTRAP</h1>
+                    <p>GRAPHIC ARTIST-WEB DESIGNER -ILLUSTRATOR</p>
                 </div>
             </div>
         </section>
@@ -55,7 +56,7 @@
         <!-- PORTFOLIO SECTION -->
         <section class="ms_portfolio mt-5">
             <div class="container">
-                <h2 class="text-center">Portfolio</h2>
+                <h2 class="text-center">PORTFOLIO</h2>
                 <div class="row g-2">
                     <div class="col-12 col-md-6 col-lg-4">
                         <div class="ms_house">
@@ -93,16 +94,16 @@
 
         <!-- ABOUT SECTION -->
         <section class="ms_about-section mt-5 py-5">
-            <div class="ms_container mx-auto">
+            <div class="ms_small_container mx-auto">
                 <h2 class="text-center text text-light">ABOUT</h2>
                 <div class="container">
                     <div class="row g-3">
-                        <div class="col-12 col-md-6">
+                        <div class="col-12 col-md-6 text-light">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis at nobis delectus
                             veritatis earum, sapiente ullam inventore recusandae dolore quidem harum quasi, molestiae
                             quisquam placeat aliquam aspernatur magnam distinctio pariatur.
                         </div>
-                        <div class="col-12 col-md-6">
+                        <div class="col-12 col-md-6 text-light">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum rem architecto ab asperiores
                             pariatur iusto esse qui soluta, deserunt, alias distinctio iure voluptatibus exercitationem
                             officiis. Temporibus rem unde quo debitis!
@@ -113,14 +114,30 @@
         </section>
 
         <!-- CONTACT ME SECTION -->
-        <section class="contact-section">
+        <section class="contact-section mt-5">
             <div class="container">
-
+                <h2 class="text-center">CONTACT ME</h2>
+                <div class="">
+                    <label for="exampleFormControlInput1" class="form-label">Name</label>
+                    <input type="text" class="form-control ms_form-control" id="exampleFormControlInput1">
+                </div>
+                <div>
+                    <label for="exampleFormControlInput1" class="form-label">Email Address</label>
+                    <input type="email" class="form-control ms_form-control" id="exampleFormControlInput1">
+                </div>
+                <div>
+                    <label for="exampleFormControlInput1" class="form-label">Phone Number</label>
+                    <input type="number" class="form-control ms_form-control" id="exampleFormControlInput1">
+                </div>
+                <div>
+                    <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                    <textarea class="form-control ms_form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
             </div>
         </section>
 
         <!-- INFO SECTION -->
-        <section class="info-section">
+        <section class="info-section mt-5">
             <div class="container">
                 <div class="row">
                     <div class="col-12">

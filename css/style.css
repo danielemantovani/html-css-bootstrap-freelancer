@@ -15,6 +15,11 @@
     background-color:var(--bg-verde);
 }
 
+.ms_img-hero{
+    width: 250px;
+    height: 250px;
+}
+
 /* PORTFOLIO SECTION (CARD) */
 
 
@@ -24,26 +29,26 @@
     background-color: var(--bg-verde);
 }
 
-.ms_container{
-    height: 400px;
-}
 
 @media screen and (min-width:768px) {
-    .ms_container{
+    .ms_small_container{
         max-width: 500px;
     }
 }
 
 @media screen and (min-width:992px) {
-    .ms_container{
-        max-width: 1000px;
+    .ms_small_container{
+        max-width: 800px;
     }
 }
 
 /* CONTACT ME SECTION */
 
-.contact-section{
-    height: 400px;
+.ms_form-control{
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-radius: 0;
 }
 
 /* INFO SECTION */
