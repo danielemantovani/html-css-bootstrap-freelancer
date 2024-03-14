@@ -29,19 +29,6 @@
     background-color: var(--bg-verde);
 }
 
-
-@media screen and (min-width:768px) {
-    .ms_small_container{
-        max-width: 500px;
-    }
-}
-
-@media screen and (min-width:992px) {
-    .ms_small_container{
-        max-width: 800px;
-    }
-}
-
 /* CONTACT ME SECTION */
 
 .ms_form-control{
@@ -54,8 +41,6 @@
 #ms_btn{
     background-color: var(--bg-verde);
 }
-
-
 
 /* INFO SECTION */
 
@@ -71,5 +56,18 @@
 
 footer{
     background-color: var(--bg-blu);
-    height: 100px;
 }
+
+
+@media screen and (min-width:768px) {
+    .ms_small-container{
+        max-width: 500px;
+    }
+}
+
+@media screen and (min-width:992px) {
+    .ms_small-container{
+        max-width: 800px;
+    }
+}
+
