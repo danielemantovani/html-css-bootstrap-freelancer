@@ -51,11 +51,20 @@
     border-radius: 0;
 }
 
+#ms_btn{
+    background-color: var(--bg-verde);
+}
+
+
+
 /* INFO SECTION */
 
 .info-section{
     background-color: #3A546D;
-    height: 400px;
+}
+
+#ms_btn{
+    background-color: var(--bg-verde);
 }
 
 /* FOOTER */
